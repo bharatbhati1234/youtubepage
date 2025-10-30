@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    /* background: red; */
+    display: flex;
+    line-height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    
+   
+}
+
+
+
+
+#menuicon{
+    position: absolute;
+    top:-2px;
+    left: 10px;
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+  
+}
+
+#youtubeicon{
+    position:absolute;
+    top:-2px;
+    left: 60px;
+    font-size: 28px;
+    color: red;
+    font-weight:bold;
+    letter-spacing:0px;
+}
+
+#youtubeicon span{
+    color: black;
+    /* font-weight: bold; */
+    letter-spacing: -1px;
+    font-family: 'sans serif';
+    
+}
+
+sup{
+    font-size: 10px;
+    padding-left: 4px;
+    
+}
+
+#search{
+   height: 30px;
+   width: 490px;
+   position: absolute;
+   top:20px;
+   left: 470px;
+   font-size: 20px;
+   font-weight: bold;
+   border:2px solid rgb(224, 221, 221);
+
+}
+
+
+#searchicon{
+    position:absolute;
+    top:20px;
+    left: 949px;
+    border:2px solid rgb(224, 221, 221);
+    padding: 5px 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+#searchicon:hover{
+    cursor:pointer;
+    background: rgb(226, 226, 226);
+}
+
+#microphoneicon{
+    position: absolute;
+    left: 1008px;
+    top: 20px;
+    background-color:smokewhite;
+    padding: 7px 11px;
+    border-radius: 100px;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+#videocamera{
+    position:absolute;
+    top: 28px;
+    right: 190px;
+    color: grey; 
+
+}
+
+
+#shareicon{
+    position: absolute;
+    top: 25px;
+    right: 140px;
+    padding: 4px 4px;
+    background-color: lightgrey;
+    border-radius: 100px;
+    
+}
+
+#bellicon{
+    position: absolute;
+    top: 29px;
+    right: 100px;
+    color: grey;
+}
+
+#logo{
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    border-radius: 50px;
+  
+}
+
+
+hr{
+    position: absolute;
+    right: 0px;
+    
+}
+
+#features{
+    width: 100%;
+    height: 75px;
+    /* display: inline; */
+    /* background:yellow; */
+    /* background: red; */
+ 
+}
+
+#features ol li a:hover{
+    background: rgb(206, 200, 200);
+}
+
+#features ol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 260px;
+    
+  
+    
+}
+
+
+
+#features ol li{
+    display:flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px; 
+    /* background:blue; */
+    
+}
+
+
+#features ol li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    border-radius: 20px;
+    /* background: red; */
+    padding: 8px 8px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+
+#All a:nth-child(1){
+    background: rgb(82, 80, 80);
+    color: white;
+}
+
+
+#sidenav{
+    width: 250px;
+    height: 80vh;
+    /* background: red; */
+   
+}
+
+.sidenav-1{
+    /* background: yellow; */
+    width: 100%;
+    margin-top:-76px;
+    padding-top: 10px;
+    
+    
+    
+  
+}
+
+.sidenav-1 a{
+    display: block;
+    padding: 15px 0px;
+    padding-left: 19px;
+    margin-top: 0px;
+
+   
+}
+
+
+.sidenav-1 hr{
+    position: absolute;
+    left: 0;
+  
+}
+
+.sidenav-1 a:nth-child(1){
+    background: rgb(235, 231, 231);
+
+}
+
+.sidenav-1 a{
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.sidenav-1 a:hover{
+    background: rgb(206, 200, 200);
+
+}
+
+.subscriptions{
+     padding-top: 14px;
+     padding-left: 6px;
+     font-weight: bold;
+     color: black;  
+}
+
+
+.sidenav-1 .sub{
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    padding: 10px 18px;
+
+}
+
+.sidenav-1 .sub img{
+    border-radius: 50px;
+    cursor:pointer;
+
+}
+
+.sidenav-1 .sub span{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    cursor:pointer;
+}
+   
+
+#section-1{
+    background: rgb(247, 244, 244);
+    width: 1250px;
+    height: 600px;
+    position: absolute;
+    top:146px;
+    left:50%;
+    right: 50%;
+    translate: transform(50%,50%);
+    border-top: 1px solid rgb(173, 173, 173);
+    margin-left: -493px;
+    display:grid;
+    
+   
+
+}
+
+  
+ .thumbnailline-1{
+     width: 25%;
+     /* background: red; */
+     height: 80%;
+     margin: 20px 20px;
+    
+     
+     
+    
+  
+    
+ }  
+  
+  .thumbnail-1{
+      /* background: yellow; */
+      display: inline;
+      width: 100%;
+      
+    
+  } 
+
+   .title{
+      /* background: orange; */
+      width: 300px;
+      height: 89px;
+      margin-top: 8px;
+      
+   
+  
+  }
+
+
+  #Bharaticon{
+      border-radius: 40px;
+       
+ 
+  }
+
+  .title span{
+      font-weight:bold;
+      position: absolute;
+      left: 70px;
+      margin-top: 4px;
+      
+
+  }
+.title h5{
+    margin-top: 5px;
+}
+
+
+
+.thumbnailline-2{
+    position: absolute;
+    left: 330px;
+    top: 19.8px;
+
+}
+
+
+.thumbnailline-3{
+    position: absolute;
+    left: 640px;
+    top: 19.8px;
+    
+
+}
+
+.thumbnailline-4{
+    position: absolute;
+    left: 950px;
+    top: 19.8px;
+    
+
+}
+
+
+
+.thumbnailline-5{
+    margin: 20px 20px;
+}
+
+
+.thumbnailline-6{
+    position: absolute;
+    bottom: -2px;
+    left: 330px;
+}
+
+.thumbnailline-7{
+    position: absolute;
+    bottom: -2px;
+    left: 640px;
+}
+
+.thumbnailline-8{
+    position: absolute;
+    bottom: -2px;
+    left: 950px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
